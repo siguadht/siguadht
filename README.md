@@ -1,27 +1,35 @@
+<a id="english"></a>
+
+# Hi, I'm 千泷QAQ 👋
+
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="千泷QAQ · AI 产品经理 · AI Builder & Creator" width="100%" />
+  <img src="assets/profile-banner.svg" alt="A terminal-style introduction to 千泷QAQ, an AI product manager and builder" width="100%" />
 </p>
 
-## 👋 你好，我是千泷QAQ
+I work in AI product management, with a path through AI data, SFT, and model evaluation.<br />
+I enjoy investigating how systems work, using evidence to make product decisions, and turning ideas into things people can try.<br />
+I write PRDs, but I also build prototypes, Agent Skills, and open-source tools.<br />
+For me, technology is a way to understand problems, test ideas, and ship useful products.
 
-一名爱研究、也爱动手的 **AI 产品经理**。我从 AI 数据、SFT 和模型评测走向 AI 产品：研究真实问题，用数据和评测检验判断，再把想法做成可以体验的东西。
-
-我会写 PRD，也会亲手做原型、Agent Skills 和开源工具。我希望把复杂的技术判断讲清楚，让更多人看懂产品为什么这样设计。
-
-对我来说，技术是理解问题、验证想法和完成交付的工具。
-
-`BUILD` 做能运行的东西　·　`TEST` 用真实任务检验　·　`SHIP` 公开交付　·　`EXPLAIN` 把经验讲清楚
-
-## 🎯 我的优势
-
-- **零配置理念**：我信奉“零配置”，希望一条命令就能装好所需工具，也让 Agent 理解何时、如何正确使用它们。
-- **内容与传播能力**：把复杂技术讲成人能听懂、愿意转发的内容，也用真实反馈反哺产品判断。
-- **公开构建习惯**：用 GitHub 项目、用户数据和发布复盘验证判断，而不是让需求停在一张漂亮的流程图里。
-
-## ⭐ 个人作品
-
-<!-- 作品待补充 -->
+🔗 [GitHub](https://github.com/siguadht)
 
 ---
 
-<p align="center"><sub>BUILD · TEST · SHIP · EXPLAIN</sub></p>
+## ⭐ Featured projects
+
+<!-- Projects will be added here when ready. -->
+
+---
+
+## ✍️ Writing
+
+I like making complex AI concepts and product trade-offs clear enough to understand, discuss, and share.
+
+---
+
+## About
+
+- **AI Product Manager** with experience in AI data, SFT, and model evaluation.
+- **Zero-configuration mindset:** I aim for one-command setup and tools that agents can use correctly.
+- **Technical communication:** I turn complex ideas into accessible content and use audience feedback to sharpen product judgment.
+- **Building in public:** I use GitHub projects, user signals, and release retrospectives to test my assumptions.
