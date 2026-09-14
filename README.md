@@ -15,7 +15,7 @@ I enjoy investigating how systems work, using evidence to make product decisions
 I write PRDs, but I also build prototypes, Agent Skills, and open-source tools.<br />
 For me, technology is a way to understand problems, test ideas, and ship useful products.
 
-🌐 [Website](https://siguadht.github.io/) · ✉️ [Email](mailto:2022434430@qq.com)
+🌐 [Website](https://siguadht.github.io/) · ✉️ [Email](mailto:2022534430@qq.com)
 
 ---
 
