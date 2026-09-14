@@ -3,13 +3,19 @@
 # Hi, I'm 千泷QAQ 👋
 
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="A terminal-style introduction to 千泷QAQ, an AI product manager and builder" width="100%" />
+  <a href="https://siguadht.github.io/">
+    <img src="assets/profile-banner.svg" alt="Open 千泷QAQ's personal website" width="100%" />
+  </a>
 </p>
+
+<p align="center"><sub>Click the terminal to explore my personal website</sub></p>
 
 I work in AI product management, with a path through AI data, SFT, and model evaluation.<br />
 I enjoy investigating how systems work, using evidence to make product decisions, and turning ideas into things people can try.<br />
 I write PRDs, but I also build prototypes, Agent Skills, and open-source tools.<br />
 For me, technology is a way to understand problems, test ideas, and ship useful products.
+
+🌐 [Website](https://siguadht.github.io/) · ✉️ [Email](mailto:2022434430@qq.com)
 
 ---
 
