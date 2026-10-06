@@ -1,43 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-labelledby="title desc">
-  <title id="title">千泷QAQ — AI product manager and builder</title>
-  <desc id="desc">A light terminal window introducing research, model evaluation, product thinking, and building in public.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">张骏 · AI 产品经理</title>
+  <desc id="desc">米白色背景上的空间设计线稿连接场景、方案、验证与迭代，表达把真实业务问题做成可用的 AI 产品。</desc>
   <defs>
-    <linearGradient id="window" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#f7fafc"/>
-    </linearGradient>
-    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#9bb3c5" fill-opacity=".20"/>
-    </pattern>
-    <clipPath id="frame"><rect x="2" y="2" width="996" height="476" rx="22"/></clipPath>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#e4ded4" stroke-width="1"/></pattern>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fcfaf5"/><stop offset="1" stop-color="#f3eee5"/></linearGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="998" height="358" rx="20"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="998" height="478" rx="23" fill="url(#window)" stroke="#d8e2eb" stroke-width="2"/>
-  <g clip-path="url(#frame)">
-    <rect x="2" y="2" width="996" height="62" fill="#f0f5f8"/>
-    <path d="M2 64h996" stroke="#d8e2eb" stroke-width="2"/>
-    <rect x="706" y="65" width="292" height="413" fill="url(#dots)"/>
-    <path d="M705 64v414" stroke="#e4ebf0"/>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, monospace; }
+    .plan { fill: none; stroke: #8c8175; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 520; stroke-dashoffset: 520; animation: draw 5s ease-out forwards; }
+    .flow { fill: none; stroke: #b75f43; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 8 10; animation: move 8s linear infinite; }
+    .node { fill: #fcfaf5; stroke: #b75f43; stroke-width: 2; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes move { to { stroke-dashoffset: -180; } }
+    @media (prefers-reduced-motion: reduce) { .plan, .flow { animation: none; stroke-dashoffset: 0; } }
+  </style>
+  <rect x="1" y="1" width="998" height="358" rx="20" fill="url(#paper)" stroke="#ded5c8" stroke-width="2"/>
+  <g clip-path="url(#clip)">
+    <rect x="575" y="0" width="425" height="360" fill="url(#grid)" opacity=".8"/>
+    <path d="M575 0v360" stroke="#e1d8cb" stroke-width="2"/>
+    <path class="plan" d="M628 58h284v79h-65v77h-71v82H628V58Zm72 0v103h76v53M628 161h72v82h76M847 137h65v159h-80"/>
+    <path class="flow" d="M652 112h94v67h73v72h64"/>
+    <circle class="node" cx="652" cy="112" r="7"/><circle class="node" cx="746" cy="179" r="7"/><circle class="node" cx="819" cy="251" r="7"/><circle class="node" cx="883" cy="251" r="7"/>
+    <text x="633" y="91" class="sans" font-size="14" fill="#6d6259">场景</text><text x="708" y="151" class="sans" font-size="14" fill="#6d6259">方案</text><text x="782" y="225" class="sans" font-size="14" fill="#6d6259">验证</text><text x="850" y="283" class="sans" font-size="14" fill="#6d6259">迭代</text>
   </g>
-  <circle cx="31" cy="33" r="9" fill="#ed6a5f"/>
-  <circle cx="58" cy="33" r="9" fill="#f2be4b"/>
-  <circle cx="85" cy="33" r="9" fill="#61c454"/>
-  <text x="500" y="39" fill="#73889a" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" text-anchor="middle" letter-spacing="1">siguadht@studio — build.log</text>
-  <g font-family="SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="40" y="108" fill="#3578b8" font-size="17" font-weight="700">$ whoami</text>
-    <text x="40" y="149" fill="#1d3141" font-size="32" font-weight="700">千泷QAQ</text>
-    <text x="40" y="177" fill="#64798a" font-size="16">AI Product Manager  /  AI Builder &amp; Creator</text>
-    <text x="40" y="229" fill="#3578b8" font-size="17" font-weight="700">$ trace --journey</text>
-    <text x="40" y="261" fill="#344b5d" font-size="16">AI data  →  SFT  →  model evaluation  →  products</text>
-    <text x="40" y="311" fill="#3578b8" font-size="17" font-weight="700">$ build --with-evidence</text>
-    <text x="40" y="343" fill="#344b5d" font-size="16">PRDs  ·  prototypes  ·  Agent Skills  ·  open source</text>
-    <text x="40" y="400" fill="#2f946a" font-size="17" font-weight="700">✓ learning in public, shipping what works</text>
-    <rect x="40" y="426" width="10" height="20" rx="1" fill="#3578b8"/>
-    <text x="753" y="163" fill="#9db1c0" font-size="12" letter-spacing="2">PROCESS</text>
-    <text x="753" y="208" fill="#668196" font-size="15">01  RESEARCH</text>
-    <text x="753" y="251" fill="#668196" font-size="15">02  TEST</text>
-    <text x="753" y="294" fill="#668196" font-size="15">03  BUILD</text>
-    <text x="753" y="337" fill="#668196" font-size="15">04  EXPLAIN</text>
-  </g>
-  <path d="M753 369h182" stroke="#d8e2eb" stroke-width="2"/>
-  <text x="753" y="397" fill="#9db1c0" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="12">v1.0  ·  OPEN TO ITERATION</text>
+  <text x="45" y="59" class="mono" font-size="14" letter-spacing="3" fill="#a35b44">ZHANG JUN  /  AI PRODUCT MANAGER</text>
+  <text x="43" y="147" class="sans" font-size="46" font-weight="700" fill="#282722">让 AI 走进真实场景</text>
+  <text x="46" y="193" class="sans" font-size="19" fill="#655f56">从设计业务到 AI 产品 · 发现问题，验证方案，持续迭代</text>
+  <path d="M46 223h474" stroke="#d8cec1" stroke-width="1.5"/>
+  <rect x="46" y="247" width="132" height="31" rx="15.5" fill="#e9ded3"/><rect x="190" y="247" width="137" height="31" rx="15.5" fill="#e9ded3"/><rect x="339" y="247" width="154" height="31" rx="15.5" fill="#e9ded3"/>
+  <text x="112" y="268" text-anchor="middle" class="mono" font-size="12" fill="#4d4841">PRODUCT</text><text x="258" y="268" text-anchor="middle" class="mono" font-size="12" fill="#4d4841">AGENT / AIGC</text><text x="416" y="268" text-anchor="middle" class="mono" font-size="12" fill="#4d4841">BUILD &amp; TEST</text>
+  <text x="46" y="325" class="sans" font-size="14" fill="#8a8176">张骏 · AI 产品经理 · 室内设计与酒店设计背景</text>
 </svg>
